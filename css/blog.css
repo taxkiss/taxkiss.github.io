@@ -1,0 +1,78 @@
+@CHARSET "UTF-8";
+.bodyperson{
+	margin:0px;
+	padding:0px;
+	background-color:#141414;
+}
+
+.up{
+	height:150px;
+	margin-left:20px;
+	margin-right:20px;
+	border-bottom:0.5pt solid #FFFFFF;
+	
+}
+
+.up img{
+	float:left;
+}
+
+.inter{
+	width:180px;
+	height:82px;
+	line-height:110px;
+	font-size:30px;
+	color:white;
+	font-weight:bolder;
+	font-family:幼圆;
+	text-align:center;
+	float:left;
+}
+.instr{
+	width:500px;
+	height:80px;
+	margin-left:50px;
+	margin-top:40px;
+	background-color:#D51A21;
+	float:left;
+	border:1px solid #D51A21;
+	border-radius:10px;
+	font-align:宋体;
+	font-size:40px;
+	text-align:center;
+	color:white;
+	line-height: 80px;
+	font-weight:bolder;
+}
+
+.center{
+	height:350px;
+	margin-top: 20px;
+	background-color:#F2F2F2;
+}
+.centent{
+	height:310px;
+	margin-left: 300px;
+	font-size:20px;
+}
+.centent li{
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
