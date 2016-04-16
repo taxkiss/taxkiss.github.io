@@ -47,6 +47,11 @@
         namespace: "centered-btns"
       });
     });
+	function showtime(){
+		document.getElementById("mytime").innerText=new Date().toLocaleString();//在元素间的文本通过对象innerText实现
+	}
+	setInterval("showtime()",1000);
+    
   </script>
     
 </head>
@@ -62,6 +67,9 @@
 			<li><a href="technology.html">技术仓库</a></li>
 			<li><a href="taxkiss.html">呦呦小作</a></li>
 			<li><a href="http://taxkiss.github.io">GitHub</a></li>
+		</ul>
+		<ul>
+		<li><span style="font-family:幼圆;font-size:16px;color:white;" id="mytime"></span></li>
 		</ul>
 	</nav>
 </header>
